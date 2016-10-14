@@ -2,9 +2,78 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 </head>
 <body>
-<h1>Nate Schulte</h1>
-<p>Product Designer</p>
+
+<div class="wrapper">
+	<div class="navBar">
+		<a class="name">Nate Schulte</a>
+
+		 <a id="menu-toggle" href="#" class="button">
+	      <span class="sr">Toggle Navigation</span>
+	      <span class="menu-bar bar1"></span>
+	      <span class="menu-bar bar2"></span>
+	      <span class="menu-bar bar3"></span>
+	    </a>
+	</div>
+
+	<div class="container">
+		<h1>Product Designer at <span class="abacus">Abacus</span>.</h1>
+		<h1 class="thin">Previously at <span class="shake">Shake</span>, <span class="percolate">Percolate</span>, <span class="turn">Turntable.fm</span>.	</h1>
+		<h1 class="thin">Founder of <span class="designTalk">Design Talk</span>.</h1>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	    var menu = document.getElementById('menu-toggle'),
+      toggled = false;
+
+    menu.addEventListener( 'click', function() {
+      if ( !toggled ) {
+        this.className += " toggled";
+        toggled = true;
+      } else {
+        this.className = this.className.replace(/\b\stoggled\b/, "");
+        toggled = false;
+      }
+    }, false );
+</script>
+
+<script type="text/javascript">
+	jQuery(function(){
+    var $body = $('.wrapper');
+    $('.abacus').hover(function(){
+        $body.css('border-color', '#0187d0')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+
+    $('.percolate').hover(function(){
+        $body.css('border-color', '#F06320')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+
+    $('.shake').hover(function(){
+        $body.css('border-color', '#D94C1A')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+
+    $('.turn').hover(function(){
+        $body.css('border-color', '#F6B213')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+
+    $('.designTalk').hover(function(){
+        $body.css('border-color', '#000000')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+})
+</script>
 </body>
 </html>
