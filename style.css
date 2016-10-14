@@ -48,6 +48,9 @@ body {
 .container h1.thin {
 	font-weight: 300;
 }
+.container h1.small {
+  font-size: 25px;
+}
 .container h1 .abacus,
 .container h1 .shake,
 .container h1 .percolate,
