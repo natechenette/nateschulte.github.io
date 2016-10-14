@@ -61,8 +61,6 @@ body {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     cursor:pointer;
-    -webkit-filter: blur(6px); /* Chrome, Safari, Opera */
-    filter: blur(6px);
     color:#0187D0;
 }
 
@@ -70,10 +68,8 @@ body {
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
-    cursor:pointer;
-    -webkit-filter: blur(6px); /* Chrome, Safari, Opera */
-    filter: blur(6px);
     color:#D94C1A;
+    cursor: pointer;
 }
 
 .container h1 .percolate:hover {
@@ -81,8 +77,6 @@ body {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     cursor:pointer;
-    -webkit-filter: blur(6px); /* Chrome, Safari, Opera */
-    filter: blur(6px);
     color:#F06320;
 }
 
@@ -91,8 +85,6 @@ body {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     cursor:pointer;
-    -webkit-filter: blur(6px); /* Chrome, Safari, Opera */
-    filter: blur(6px);
     color:#F6B213;
 }
 
@@ -101,8 +93,6 @@ body {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     cursor:pointer;
-    -webkit-filter: blur(6px); /* Chrome, Safari, Opera */
-    filter: blur(6px);
     color:#000;
 }
 
