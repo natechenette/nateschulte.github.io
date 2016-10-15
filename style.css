@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
 
 body {
 	margin:0px;
@@ -6,7 +12,8 @@ body {
 	padding:0px;
 	font-family: 'Oswald', sans-serif;
 	background-repeat:no-repeat;
-    background-size:cover;
+  background-size:cover;
+  overflow: hidden;
 }
 .wrapper {
 	max-height: 100vh;
@@ -17,6 +24,7 @@ body {
   	box-sizing: border-box;
   	transition: all 0.2s;
 	-webkit-transition:all 0.2s;
+  overflow: scroll
 }
 .navBar {
 	width:100%;
@@ -25,16 +33,42 @@ body {
 	padding:40px;
 	-moz-box-sizing: border-box;
   	box-sizing: border-box;
-  }
+}
+.arrowDown {
+   position: absolute;
+   bottom:50px;
+   left: 50%;
+   font-size:30px;
+   text-align: center;
+   color: #5848DE;
+}
+.sideBar {
+  display: none;
+  position: fixed;
+  z-index:9998;
+  background-color: #5848DE;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
 
 .container {
 	width:100%;
 	max-width: 1100px;
 	margin:auto;
-	margin-top: 70px;
 	padding:40px;
 	-moz-box-sizing: border-box;
   	box-sizing: border-box;
+}
+
+.infoWrapper {
+  position: relative;
+  height:calc(100vh - 200px);
+}
+.info {
+  position: relative;
+  top: 15%;
 }
 
 .container h1 {
@@ -113,16 +147,59 @@ body {
 }
 
 .navBar a.name:hover {
-	-ms-transform: scale(1.1, 1.1);
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-    cursor:pointer;
-    -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
-    filter: blur(5px);
+	color: #5848DE;
+  cursor: pointer;
 }
 
 
+/* Grid */
 
+.grid {
+  overflow: auto;
+  width: 100%;
+  min-height: 20px;
+  margin-top: 0;
+}
+
+.grid .item {
+  width: 35%;
+  margin-right:3%;
+  float: left;
+  min-height: 150px;
+  background-color: #ccc;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid .itemLong {
+  width: 62%;
+  margin:0;
+  float: right;
+  min-height: 150px;
+  background-color: #ccc;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid .itemLongLeft {
+  width: 62%;
+  margin-top: 3%;
+  float: left;
+  min-height: 150px;
+  background-color: #ccc;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid .itemRight {
+  width: 35%;
+  margin-top: 3%;
+  float: right;
+  min-height: 150px;
+  background-color: #ccc;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* Menu Bar */
 
@@ -131,6 +208,7 @@ body {
   position: relative;
   float:right;
   width: 40px;
+  z-index: 9999;
   top:-10px;
   height: 40px;
   border-radius: 3px;
@@ -161,6 +239,9 @@ body {
   transition: all 300ms;
   margin: 0 auto;
 }
+.menu-bar:hover {
+  background-color: #5848DE;
+}
 
 .bar1 {
   top: 0;
@@ -181,9 +262,12 @@ body {
 .menu-bar + .menu-bar {
   margin-top: 8px;
 }
-
+.toggled .menu-bar {
+  background-color: #fff;
+}
 .toggled .bar1 {
   top: 25%;
+  color:#fff;
   animation: topbar-x 500ms;
   animation-fill-mode: both;
 }
@@ -215,6 +299,7 @@ body {
 
   100% {
     -webkit-transform: rotate(135deg);
+    color:#fff;
   }
 }
 
@@ -222,6 +307,7 @@ body {
   0% {
     top: 25%;
     -webkit-transform: rotate(135deg);
+    color:#fff;
   }
 
   45% {
@@ -255,6 +341,7 @@ body {
 
   100% {
     -webkit-transform: rotate(-135deg);
+    color:#fff;
   }
 }
 
@@ -262,6 +349,7 @@ body {
   0% {
     bottom: 25%;
     -webkit-transform: rotate(-135deg);
+    color:#fff;
   }
 
   45% {

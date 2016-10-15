@@ -18,11 +18,30 @@
 	    </a>
 	</div>
 
+    <div class="sideBar">test</div>
+
 	<div class="container">
-		<h1>Product Designer at <span class="abacus">Abacus</span>.</h1>
-		<h1 class="thin">Previously at <span class="shake">Shake</span>, <span class="percolate">Percolate</span>, <span class="turn">Turntable.fm</span>.	</h1>
-		<h1 class="thin">Founder of <span class="designTalk">Design Talk</span>.</h1>
-		<h1 class="thin small">Worked with companies such as Tumblr, Red Bull, GE, Unilever & more.</h1>
+
+
+        <div class="infoWrapper">
+            <div class="info">
+        		<h1>Product Designer at <span class="abacus">Abacus</span>.</h1>
+        		<h1 class="thin">Previously at <span class="shake">Shake</span>, <span class="percolate">Percolate</span>, <span class="turn">Turntable.fm</span>.	</h1>
+        		<h1 class="thin">Founder of <span class="designTalk">Design Talk</span>.</h1>
+        		<h1 class="thin small">Worked with companies like Tumblr, Red Bull, GE, Unilever & more.</h1>
+            </div>
+        </div>
+
+        <div class="arrowDown">
+             <span class="entypo-down-open-mini"></span>
+        </div>
+        <div class="grid">
+            <div class="item">1</div>
+            <div class="itemLong">2</div>
+            <div class="itemLongLeft">3</div>
+            <div class="itemRight">4</div>
+            <div class="item">5</div>
+        </div>
 	</div>
 
 </div>
@@ -74,6 +93,16 @@
     }, function() {
         $body.css('border-color', '#ffffff')
     })
+
+    $('.name').hover(function(){
+        $body.css('border-color', '#5848DE')
+    }, function() {
+        $body.css('border-color', '#ffffff')
+    })
+
+    $(".button").click(function(){
+        $(".sideBar").fadeToggle('fast');
+    });
 })
 </script>
 </body>
