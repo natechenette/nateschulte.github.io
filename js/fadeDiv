@@ -1,0 +1,7 @@
+$(document).ready(function(){
+
+ $(".abacus-row").click(function() {
+    $(".abacus-expanded").fadeIn("slow");
+ });
+
+});

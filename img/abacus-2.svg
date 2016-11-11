@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="798px" height="267px" viewBox="0 0 798 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="168.738273" y="0" width="147.934924" height="37.5616018"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="149.934924" height="39.5616018">
+            <rect x="167.738273" y="-1" width="149.934924" height="39.5616018" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-3" x="0.476198393" y="0.323422641" width="201.490044" height="189.331162"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="203.490044" height="191.331162">
+            <rect x="-0.523801607" y="-0.676577359" width="203.490044" height="191.331162" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+        <rect id="path-5" x="68.2185407" y="66.9077762" width="66.5843536" height="56.1624547"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="68.5843536" height="58.1624547">
+            <rect x="67.2185407" y="65.9077762" width="68.5843536" height="58.1624547" fill="white"></rect>
+            <use xlink:href="#path-5" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-165.000000, -1014.000000)">
+            <g id="Group-11" transform="translate(165.000000, 1014.000000)">
+                <g id="Group-5" transform="translate(0.000000, 0.558594)">
+                    <rect id="Rectangle-4-Copy-4" fill="#F6F8FA" x="-5.68434189e-14" y="0.222602678" width="462.296638" height="265.767262"></rect>
+                    <rect id="Rectangle-4-Copy-5" fill="#F6F8FA" x="480.390625" y="0.222602678" width="317" height="265.767262"></rect>
+                    <g id="Group-2" transform="translate(75.332697, 29.378426)">
+                        <g id="Group" fill="#0187D0">
+                            <rect id="Rectangle-3" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill-opacity="0.7" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill-opacity="0.4" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                        <g id="Group-Copy" transform="translate(168.738273, 0.000000)">
+                            <rect id="Rectangle-3" fill="#51B371" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#85C99B" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#B9E1C6" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-2-Copy" transform="translate(75.332697, 86.009764)">
+                        <g id="Group">
+                            <rect id="Rectangle-3" fill="#F4B35C" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#F4C68A" opacity="0.7" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#F5DCBB" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                        <g id="Group-Copy" transform="translate(168.738273, 0.000000)">
+                            <rect id="Rectangle-3" fill="#7E5A9D" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#A188B8" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#E2DEEB" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-3" transform="translate(75.332697, 142.641102)">
+                        <g id="Group-2-Copy-2">
+                            <g id="Group">
+                                <rect id="Rectangle-3" fill="#F9976C" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                                <rect id="Rectangle-3-Copy" fill="#F6C6B3" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                                <rect id="Rectangle-3-Copy-2" fill="#F6E7E3" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                            </g>
+                            <g id="Group-Copy" transform="translate(168.738273, 0.000000)">
+                                <rect id="Rectangle-3" fill="#ED6349" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                                <rect id="Rectangle-3-Copy" fill="#EF8E7D" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                                <rect id="Rectangle-3-Copy-2" fill="#F2BCB3" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-4" transform="translate(75.332697, 199.272440)">
+                        <g id="Group">
+                            <rect id="Rectangle-3" fill="#3C4858" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#737B88" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#ABB1B9" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                        <g id="Rectangle-4">
+                            <use fill="#F6F8FA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke="#E5E8EB" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-Copy" transform="translate(242.673197, 19.000000) scale(-1, 1) translate(-242.673197, -19.000000) translate(168.673197, 0.000000)">
+                            <rect id="Rectangle-3" fill="#F6F8FA" x="0" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#FFFFFF" opacity="0.5" x="49.1212489" y="0" width="49.6924262" height="37.5616018"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#FFFFFF" x="98.2424978" y="0" width="49.6924262" height="37.5616018"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-8" transform="translate(535.261719, 39.558594)">
+                    <text id="Equal-Copy-5" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                        <tspan x="64.3873225" y="41.1151528">Equal</tspan>
+                    </text>
+                    <text id="Equal-Copy-6" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                        <tspan x="64.3873225" y="163.861961">Equal</tspan>
+                    </text>
+                    <text id="Equal-Copy-7" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                        <tspan x="149.499496" y="115.805428">Equal</tspan>
+                    </text>
+                    <text id="Equal-Copy-8" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                        <tspan x="19.225761" y="115.805428">Equal</tspan>
+                    </text>
+                    <use id="Rectangle-4-Copy-2" stroke="#C9CFD5" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="5,4" xlink:href="#path-3"></use>
+                    <use id="Rectangle-4-Copy-3" stroke="#C9CFD5" mask="url(#mask-6)" stroke-width="2" stroke-dasharray="5,4" xlink:href="#path-5"></use>
+                    <path d="M135.381889,95.567998 L201.966242,95.567998" id="Path-3-Copy-6" stroke="#D3DCE6" transform="translate(168.674065, 95.567998) scale(1, -1) translate(-168.674065, -95.567998) "></path>
+                    <path d="M101.510717,66.9077762 L101.510717,0.323422641" id="Path-3-Copy-8" stroke="#D3DCE6" transform="translate(101.510717, 33.615599) scale(1, -1) translate(-101.510717, -33.615599) "></path>
+                    <path d="M101.510717,189.654585 L101.510717,123.070231" id="Path-3-Copy-9" stroke="#D3DCE6" transform="translate(101.510717, 156.362408) scale(1, -1) translate(-101.510717, -156.362408) "></path>
+                    <path d="M0.476198393,96.7259867 L67.060552,96.7259867" id="Path-3-Copy-7" stroke="#D3DCE6" transform="translate(33.768375, 96.725987) scale(1, -1) translate(-33.768375, -96.725987) "></path>
+                    <g id="Group" transform="translate(67.639546, 66.907776)" fill="#1986C7">
+                        <path d="M44.5825672,11.0008932 C44.5825672,17.0766865 39.6563672,22.0017864 33.581674,22.0017864 C27.5058807,22.0017864 22.5807808,17.0766865 22.5807808,11.0008932 C22.5807808,4.92509988 27.5058807,0 33.581674,0 C39.6563672,0 44.5825672,4.92509988 44.5825672,11.0008932" id="Fill-18"></path>
+                        <path d="M22.0017864,45.1615615 C22.0017864,51.2384549 17.0766865,56.1624547 11.0008932,56.1624547 C4.92509988,56.1624547 0,51.2384549 0,45.1615615 C0,39.0868683 4.92509988,34.1606683 11.0008932,34.1606683 C17.0766865,34.1606683 22.0017864,39.0868683 22.0017864,45.1615615" id="Fill-20"></path>
+                        <path d="M67.1633479,45.1615615 C67.1633479,51.2384549 62.2382481,56.1624547 56.1613547,56.1624547 C50.0866614,56.1624547 45.1615615,51.2384549 45.1615615,45.1615615 C45.1615615,39.0868683 50.0866614,34.1606683 56.1613547,34.1606683 C62.2382481,34.1606683 67.1633479,39.0868683 67.1633479,45.1615615" id="Fill-22"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

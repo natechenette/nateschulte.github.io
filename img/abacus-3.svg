@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800px" height="319px" viewBox="0 0 800 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-165.000000, -1299.000000)">
+            <g id="Group-13" transform="translate(165.000000, 1298.000000)">
+                <g id="Group-7-Copy" transform="translate(0.000000, 0.472301)" fill="#F6F8FA">
+                    <rect id="Rectangle-4-Copy-3" x="0" y="0.929934076" width="799.515836" height="318.235547"></rect>
+                </g>
+                <g id="Group-10" transform="translate(166.322458, 70.472301)">
+                    <text id="Aa" font-family="Lora-Regular, Lora" font-size="150" font-weight="normal" letter-spacing="7.59493589" fill="#3C4858">
+                        <tspan x="4.82245771" y="142">Aa</tspan>
+                    </text>
+                    <text id="Lora,-Lora-Bold" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                        <tspan x="0.822457714" y="177">Lora, Lora Bold</tspan>
+                    </text>
+                </g>
+                <text id="Aa-Copy" font-family="OpenSans, Open Sans" font-size="150" font-weight="normal" letter-spacing="7.59493589" fill="#3C4858">
+                    <tspan x="456.607614" y="208.472301">Aa</tspan>
+                </text>
+                <text id="Open-Sans" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" letter-spacing="0.0923076943" fill="#8492A6">
+                    <tspan x="457.607614" y="243.472301">Open Sans</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
