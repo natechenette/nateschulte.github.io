@@ -10,9 +10,15 @@ $(document).ready(function(){
     $("body").addClass("remove-overflow");
  });
 
+  $(".designtalk-row").click(function() {
+    $(".designtalk-expanded").fadeIn("fast");
+    $("body").addClass("remove-overflow");
+ });
+
  $(".close").click(function() {
     $(".abacus-expanded").fadeOut("fast");
     $(".percolate-expanded").fadeOut("fast");
+    $(".designtalk-expanded").fadeOut("fast");
     $("body").removeClass("remove-overflow");
  });
 
