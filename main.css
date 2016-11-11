@@ -216,7 +216,7 @@ body {
   	transition: all 0.2s;
 }
 
-.abacus-expanded, .percolate-expanded, .designtalk-expanded {
+.abacus-expanded, .percolate-expanded, .designtalk-expanded, .shake-expanded, .turntable-expanded {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -238,7 +238,7 @@ body {
 
 .expanded-wrapper img {
 	width: 100%;
-	margin-bottom: 10 px;
+	margin-bottom: 10px;
 }
 
 .expanded-wrapper h1 {
