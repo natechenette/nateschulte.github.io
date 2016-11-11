@@ -173,6 +173,10 @@ body {
 	margin-bottom: 100px;
 }
 
+.row:hover {
+	cursor: pointer;
+}
+
 .abacus-block {
 	background-color: #0187D0;
 	position: relative;
