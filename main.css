@@ -89,7 +89,18 @@ body {
   	-webkit-transition: all 0.2s;
   	transition: all 0.2s;
 }
-
+.social a {
+	color: #8492A6;
+	text-decoration: none;
+	-moz-transition: all 0.2s;
+  	-webkit-transition: all 0.2s;
+  	transition: all 0.2s;
+}
+.social a:hover {
+	cursor: pointer;
+	color: #1F2D3D;
+	text-decoration: underline;
+}
 .wrapper {
 	max-width:770px;
 	margin:auto;
