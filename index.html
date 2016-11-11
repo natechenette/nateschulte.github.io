@@ -190,7 +190,23 @@ mixpanel.init("ca2a57d5805b730517eb7705147d3065");</script><!-- end Mixpanel -->
 		<img src="./img/turntable-5.png">
 	</div>
 </div>
-
+<script type="text/javascript">
+	$(".abacus-row").click(function(){
+		mixpanel.track("Viewed Abacus");
+	});
+	$(".percolate-row").click(function(){
+		mixpanel.track("Viewed Percolate");
+	});
+	$(".designtalk-row").click(function(){
+		mixpanel.track("Viewed DesignTalk");
+	});
+	$(".shake-row").click(function(){
+		mixpanel.track("Viewed Shake");
+	});
+	$(".turntable-row").click(function(){
+		mixpanel.track("Viewed Turntable");
+	});
+</script>
 <script type="text/javascript">
 	mixpanel.track('Portfolio Viewed', {
 	    'page name' : document.title,
