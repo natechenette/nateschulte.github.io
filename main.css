@@ -151,6 +151,13 @@ body {
 	top: 80px;
 }
 
+.details-mbi {
+	position: absolute;
+	z-index: 9997;
+	left: -200px;
+	top: 80px;
+}
+
 .details-shake {
 	position: absolute;
 	z-index: 9997;
@@ -194,7 +201,7 @@ body {
 }
 
 .designtalk-block {
-	background-color: #8492A6;
+	background-color: #605074;
 	position: relative;
 }
 
@@ -208,6 +215,10 @@ body {
 }
 .turntable-block {
 	background-color: #E9C93F;
+	position: relative;
+}
+.mbi-block {
+	background-color:#586475;
 	position: relative;
 }
 .row:hover .arrow {
@@ -227,7 +238,7 @@ body {
   	transition: all 0.2s;
 }
 
-.abacus-expanded, .percolate-expanded, .designtalk-expanded, .shake-expanded, .turntable-expanded {
+.abacus-expanded, .percolate-expanded, .designtalk-expanded, .shake-expanded, .turntable-expanded, .mbi-expanded {
 	position: fixed;
 	top: 0;
 	left: 0;

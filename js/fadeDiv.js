@@ -5,6 +5,11 @@ $(document).ready(function(){
     $("body").addClass("remove-overflow");
  });
 
+ $(".mbi-row").click(function() {
+    $(".mbi-expanded").fadeIn("fast");
+    $("body").addClass("remove-overflow");
+ });
+
  $(".percolate-row").click(function() {
     $(".percolate-expanded").fadeIn("fast");
     $("body").addClass("remove-overflow");
@@ -26,6 +31,7 @@ $(document).ready(function(){
  });
 
  $(".close").click(function() {
+    $(".mbi-expanded").fadeOut("fast");
     $(".abacus-expanded").fadeOut("fast");
     $(".percolate-expanded").fadeOut("fast");
     $(".designtalk-expanded").fadeOut("fast");
