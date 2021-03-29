@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+ $(".minimaps-row").click(function() {
+    $(".minimaps-expanded").fadeIn("fast");
+    $("body").addClass("remove-overflow");
+ });
+ 
  $(".abacus-row").click(function() {
     $(".abacus-expanded").fadeIn("fast");
     $("body").addClass("remove-overflow");
@@ -31,7 +36,8 @@ $(document).ready(function(){
  });
 
  $(".close").click(function() {
-    $(".mbi-expanded").fadeOut("fast");
+   $(".minimaps-expanded").fadeOut("fast"); 
+   $(".mbi-expanded").fadeOut("fast");
     $(".abacus-expanded").fadeOut("fast");
     $(".percolate-expanded").fadeOut("fast");
     $(".designtalk-expanded").fadeOut("fast");
