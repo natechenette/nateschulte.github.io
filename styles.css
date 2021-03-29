@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    background-color:#EFF2F7;
+}
+
+.container {
+    max-width:840px;
+    padding:0 20px;
+    margin:auto;
+}
+
+.nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:40px;
+    background-color:#EFF2F7;
+}
+
+.nav span {
+    color:#1F2D3D;
+    font-size:12px;
+    line-height:40px;
+    font-weight:700;
+}
+
+
+.header {
+    margin-top:120px;
+}
+
+.header h1 {
+    font-size:46px;
+}
+
+.content {
+    margin-top:120px;
+    color: #1F2D3D;
+    margin-bottom:50px;
+}
+
+.content ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.content ul li span {
+    margin:20px 0;
+}
+
+.content ul li {
+    font-size:25px;
+    padding:30px 0;
+}
+
+.content ul a {
+    text-decoration:none;
+    color: #1F2D3D;
+}
+
+.content ul a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display:none;
+    position:fixed;
+    height:50px;
+    width:50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+
+}
+
+.twilio:hover .logo {
+    display: block;
+    background-color:#F22F46;
+}
+
+.sendgrid:hover .logo {
+    display: block;
+    background-color:#1A82E2;
+}
+
+.minimaps:hover .logo {
+    display: block;
+    background-color:#7450E9;
+}
+
+.abacus:hover .logo {
+    display: block;
+    background-color:#0187d0;
+}
+
+.shake:hover .logo {
+    display: block;
+    background-color:#d94d1a;
+}
+
+.percolate:hover .logo {
+    display: block;
+    background-color:#F06320;
+}
+
+.dt:hover .logo {
+    display: block;
+    background-color:#1F083C;
+}
+
+.turntable:hover .logo {
+    display: block;
+    background-color:#E9C93F;
+}
+
+.mbi:hover .logo {
+    display: block;
+    background-color:#586475;
+}
+
+.wave {
+    font-size:50px;
+    margin-bottom:80px;
+}
