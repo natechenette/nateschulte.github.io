@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nate Schulte</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="./js/jquery.js"></script>
+
+<script>
+    $(document).mousemove(function(e) {
+        $('.logo').offset({
+            left: e.pageX,
+            top: e.pageY + 20
+        });
+    });
+</script>
+</head>
+
+
+<body>
+<div class="nav">
+    <div class="container">
+        <a href="index.html"><span>n ─ s</span></a>
+    </div>
+</div>
+
+<div class="header">
+    <div class="container">
+        <h1>Made By Immigrants</h1>
+        <p>Creator</p>
+        <p>Featured on Product Hunt, 40k+ visits, 1,000+ submissions. Nominated for Golden Kitty Award. </p>
+        <p><a target="_blank" href="https://www.producthunt.com/posts/made-by-immigrants">View On ProductHunt ↗</a></p>
+
+        <div class="work">
+            <img src="./img/mbi.png">
+        </div>
+    </div>
+</div>
+
+<div class="wave">
+    <div class="container">👋</div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <ul>
+            <li><a target="_blank" href="https://twitter.com/nateschulte">Twitter ↗</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/nateschulte1/">LinkedIn ↗</a></li>
+            <li><a target="_blank" href="https://github.com/nateschulte">Github ↗</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

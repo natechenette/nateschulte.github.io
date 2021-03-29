@@ -28,6 +28,9 @@ body {
     font-weight:700;
 }
 
+.nav a {
+    text-decoration:none;
+}
 
 .header {
     margin-top:120px;
@@ -148,4 +151,15 @@ body {
 
 .footer ul li a:hover {
     text-decoration:underline;
+}
+
+a {
+    color: #1F2D3D;
+}
+
+.work {
+    margin-top:60px;
+}
+.work img {
+    width:100%;
 }

@@ -1,279 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nate Schulte - Designer</title>
+<title>Nate Schulte</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" src="./js/jquery.js"></script>
-<script type="text/javascript" src="./js/fadeDiv.js"></script>
-<link rel="stylesheet" type="text/css" href="main.css">
 
-<script type="text/javascript">
-(function(e,r){function n(e,r){e[r]=function(){e.push([r].concat(Array.prototype.slice.call(arguments,0)))}}function o(){var e=r.location.hostname.match(/[a-z0-9][a-z0-9\-]+\.[a-z\.]{2,6}$/i),n=e?e[0]:null,o="; domain=."+n+"; path=/";r.cookie=r.referrer&&-1===r.referrer.indexOf(n)?"jaco_referer="+r.referrer+o:"jaco_referer="+t+o}var a="JacoRecorder",t="none";!function(e,r,t,i){if(!t.__VERSION){e[a]=t;for(var c=["init","identify","startRecording","stopRecording","removeUserTracking","setUserInfo"],s=0;s<c.length;s++)n(t,c[s]);o(),t.__VERSION=2.1,t.__INIT_TIME=1*new Date;var f=r.createElement("script");f.async=!0,f.setAttribute("crossorigin","anonymous"),f.src=i;var d=r.getElementsByTagName("head")[0];d.appendChild(f)}}(e,r,e[a]||[],"https://recorder-assets.getjaco.com/recorder_v2.js")}).call(window,window,document);
-window.JacoRecorder.init("fb010e25-477e-4b50-b223-a02e95c9fb7f");
+<script>
+    $(document).mousemove(function(e) {
+        $('.logo').offset({
+            left: e.pageX,
+            top: e.pageY + 20
+        });
+    });
 </script>
-
-<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
-mixpanel.init("1a22807994d5cce17ab21b904d764bfa");</script><!-- end Mixpanel -->
 </head>
 
+
 <body>
-
-
-<div class="navBar">
-	<div class="name">Nate Schulte</div>
+<div class="nav">
+    <div class="container">
+        <span>n ─ s</span>
+    </div>
 </div>
 
-<div class="social">
-	<a target="_blank" href="https://www.github.com/nateschulte">Github</a> - <a target="_blank" href="https://www.dribbble.com/nateschulte">Dribbble</a> - <a target="_blank" href="https://www.twitter.com/nateschulte">Twitter</a> - <a target="_blank" href="https://www.linkedin.com/in/nateschulte1">LinkedIn</a>
+<div class="header">
+    <div class="container">
+        <h1>I’m Nate Schulte. Design leader working on complex systems and products that help solve people and business problems.</h1>
+    </div>
 </div>
 
-<div class="wrapper">
-
-
-	<div class="row minimaps-row">
-		<div class="color-right minimaps-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-
-		<div class="info-left">
-			<div class="details-percolate">
-				<h1>Minimaps.io</h1>
-				<p>Founder</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="row abacus-row">
-		<div class="info-left">
-			<div class="details-abacus">
-				<h1>Abacus.com</h1>
-				<p>Lead Product Designer</p>
-			</div>
-		</div>
-		<div class="color-right abacus-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-	</div>
-
-	<div class="row percolate-row">
-		<div class="color-right percolate-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-
-		<div class="info-left">
-			<div class="details-percolate">
-				<h1>percolate.com</h1>
-				<p>Product Designer</p>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="row designtalk-row">
-		<div class="info-left">
-			<div class="details-designtalk">
-				<h1>Designtalk</h1>
-				<p>Founder</p>
-			</div>
-		</div>
-		<div class="color-right designtalk-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-	</div>
-
-	<div class="row shake-row">
-		<div class="color-right shake-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-
-		<div class="info-left">
-			<div class="details-shake">
-				<h1>shakelaw.com</h1>
-				<p>Product Designer, Acquired by LegalShield</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="row turntable-row">
-		<div class="info-left">
-			<div class="details-turntable">
-				<h1>Turntable.fm</h1>
-				<p>Product Designer</p>
-			</div>
-		</div>
-		<div class="color-right turntable-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-	</div>
-
-	<div class="row mbi-row">
-		<div class="color-right mbi-block">
-			<div class="arrow">
-				<img src="./img/arrow.svg">
-			</div>
-		</div>
-
-		<div class="info-left">
-			<div class="details-mbi">
-				<h1>Made By Immigrants</h1>
-				<p>Founder</p>
-			</div>
-		</div>
-	</div>
-
+<div class="content">
+    <div class="container">
+        <ul>
+            <a href="#">
+                <li class="twilio"> 
+                    <div class="logo"></div>
+                    Twilio ─ Manager, Product Design
+                </li>
+            </a>
+            <a href="#">
+                <li class="sendgrid"> 
+                    <div class="logo"></div>
+                    SendGrid ─ Manager, Website (Growth) & Design Systems
+                </li>
+            </a>
+            <a href="#">
+                <li class="minimaps"> 
+                    <div class="logo"></div>
+                    Minimaps ─ Founder
+                </li>
+            </a>
+            <a href="abacus.html">
+                <li class="abacus"> 
+                    <div class="logo"></div>
+                    Abacus ─ Lead Product Designer
+                </li>
+            </a>
+            <a href="percolate.html">
+                <li class="percolate"> 
+                    <div class="logo"></div>
+                    Percolate ─ Product Designer
+                </li>
+            </a>
+            <a href="designtalk.html">
+                <li class="dt"> 
+                    <div class="logo"></div>
+                    DesignTalk ─ Founder
+                </li>
+            </a>
+            <a href="shake.html">
+                <li class="shake"> 
+                    <div class="logo"></div>
+                    Shake ─ Head of User Experience
+                </li>
+            </a>
+            <a href="ttfm.html">
+                <li class="turntable"> 
+                    <div class="logo"></div>
+                    Turntable.fm ─ Product Designer
+                </li>
+            </a>
+            <a href="mbi.html">
+                <li class="mbi"> 
+                    <div class="logo"></div>
+                    Made By Immigrants ─ Side Project
+                </li>
+            </a>
+        </ul>
+    </div>
 </div>
 
-<div class="minimaps-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>Minimaps.io</h1>
-		<p>Founder, Featured on Product Hunt, 40k+ visits, 1,000+ submissions</p>
-
-		<img src="./img/mbi.png">
-	</div>
+<div class="wave">
+    <div class="container">👋</div>
 </div>
 
-<div class="mbi-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>MadeByImmigrants.org</h1>
-		<p>Founder, Featured on Product Hunt, 40k+ visits, 1,000+ submissions</p>
-
-		<img src="./img/mbi.png">
-	</div>
+<div class="footer">
+    <div class="container">
+        <ul>
+            <li><a target="_blank" href="https://twitter.com/nateschulte">Twitter ↗</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/nateschulte1/">LinkedIn ↗</a></li>
+            <li><a target="_blank" href="https://github.com/nateschulte">Github ↗</a></li>
+        </ul>
+    </div>
 </div>
-
-<div class="abacus-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>Abacus.com</h1>
-		<p>Lead Product Designer</p>
-
-		<img src="./img/abacus-1.svg">
-		<img src="./img/abacus-2.svg">
-		<img src="./img/abacus-3.svg">
-		<img src="./img/abacus-4.svg">
-		<img src="./img/abacus-16.png">
-		<img src="./img/abacus-17.png">
-		<img src="./img/abacus-5.png">
-		<img src="./img/abacus-6.png">
-		<img src="./img/abacus-7.png">
-		<img src="./img/abacus-8.png">
-		<img src="./img/abacus-9.png">
-		<img src="./img/abacus-10.png">
-		<img src="./img/abacus-11.png">
-		<img src="./img/abacus-12.png">
-		<img src="./img/abacus-13.png">
-		<img src="./img/abacus-14.png">
-		<img src="./img/abacus-15.png">
-		<img src="./img/abacus-18.png">
-		<img src="./img/abacus-19.png">
-	</div>
-</div>
-
-<div class="percolate-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>Percolate.com</h1>
-		<p>Product Designer</p>
-
-		<img src="./img/percolate-1.png">
-		<img src="./img/percolate-2.png">
-		<img src="./img/percolate-3.png">
-		<img src="./img/percolate-4.png">
-		<img src="./img/percolate-5.png">
-		<img src="./img/percolate-6.png">
-		<img src="./img/percolate-7.png">
-		<img src="./img/percolate-8.png">
-		<img src="./img/percolate-9.png">
-		<img src="./img/percolate-10.png">
-		<img src="./img/percolate-11.png">
-		<img src="./img/percolate-12.png">
-		<img src="./img/percolate-13.png">
-		<img src="./img/percolate-14.png">
-		<img src="./img/percolate-15.png">
-	</div>
-</div>
-
-<div class="designtalk-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>DesignTalk</h1>
-		<p>Founder, Quarterly Design Meetup + Designer Talks</p>
-
-		<img src="./img/designtalk-1.png">
-		<img src="./img/designtalk-2.png">
-		<img src="./img/designtalk-3.png">
-		<img src="./img/designtalk-4.png">
-		<img src="./img/designtalk-5.png">
-		<img src="./img/designtalk-6.png">
-		<img src="./img/designtalk-7.png">
-	</div>
-</div>
-
-<div class="shake-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>Shakelaw.com</h1>
-		<p>Product Designer, Acquired by LegalShield</p>
-		<img src="./img/shake-1.png">
-		<img src="./img/shake-2.png">
-		<img src="./img/shake-3.png">
-		<img src="./img/shake-4.png">
-		<img src="./img/shake-5.png">
-	</div>
-</div>
-
-<div class="turntable-expanded">
-	<div class="close"><img src="./img/close.svg"></div>
-	<div class="expanded-wrapper">
-		<h1>Turntable.fm</h1>
-		<p>Product Designer</p>
-		<img src="./img/turntable-1.png">
-		<img src="./img/turntable-2.png">
-		<img src="./img/turntable-3.png">
-		<img src="./img/turntable-4.png">
-		<img src="./img/turntable-5.png">
-	</div>
-</div>
-<script type="text/javascript">
-	$(".abacus-row").click(function(){
-		mixpanel.track("Viewed Abacus");
-	});
-	$(".percolate-row").click(function(){
-		mixpanel.track("Viewed Percolate");
-	});
-	$(".designtalk-row").click(function(){
-		mixpanel.track("Viewed DesignTalk");
-	});
-	$(".shake-row").click(function(){
-		mixpanel.track("Viewed Shake");
-	});
-	$(".turntable-row").click(function(){
-		mixpanel.track("Viewed Turntable");
-	});
-</script>
-<script type="text/javascript">
-	mixpanel.track('Portfolio Viewed', {
-	    'page name' : document.title,
-	    'url' : window.location.pathname
-	});
-</script>
 
 </body>
-
 </html>
