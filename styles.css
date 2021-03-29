@@ -127,3 +127,25 @@ body {
     font-size:50px;
     margin-bottom:80px;
 }
+.footer {
+    margin-bottom:50px;
+}
+.footer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a {
+    text-decoration:none;
+    color: #1F2D3D;
+    margin-right:20px;
+}
+
+.footer ul li a:hover {
+    text-decoration:underline;
+}
