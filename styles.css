@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,400;1,200&display=swap');
 
 body {
     margin:0;
     padding:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     background-color:#EFF2F7;
+    font-weight: 100;
 }
 
 .container {
-    max-width:840px;
+    max-width:860px;
     padding:0 20px;
     margin:auto;
 }
@@ -37,7 +38,20 @@ body {
 }
 
 .header h1 {
-    font-size:46px;
+    font-size:62px;
+    line-height:85px;
+    font-weight:100;
+}
+
+@media screen and (max-width: 960px) {
+    .header h1 {
+        font-size:42px;
+        line-height:65px;
+    }
+}
+
+.header h1 span {
+    color:#B265E9;
 }
 
 .content {
@@ -73,12 +87,21 @@ body {
 .logo {
     display:none;
     position:fixed;
+    text-align:center;
     height:50px;
     width:50px;
+    background-image: url('img/up-right.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
 
+}
+
+.trueplan:hover .logo {
+    display: block;
+    background-color:#0FBE7B;
 }
 
 .twilio:hover .logo {
@@ -155,11 +178,27 @@ body {
 
 a {
     color: #1F2D3D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .work {
     margin-top:60px;
 }
 .work img {
-    width:100%;
+    padding:30px;
+    width:calc(100% - 40px);
+    background-color:#E0E6ED;
+    margin-bottom:32px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.container p {
+    font-size:20px;
+    line-height: 34px;
 }
