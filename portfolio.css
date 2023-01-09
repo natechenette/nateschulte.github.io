@@ -141,7 +141,7 @@ body {
   }
   
   .tiles-wrap li.wookmark-inactive {
-    visibility: hidden;
+    display: block;
     opacity: 0;
   }
   
