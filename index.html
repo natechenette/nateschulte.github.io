@@ -13,13 +13,6 @@
         });
     });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout/masonry.min.js"></script>
-<script>
-    $('.grid').masonry({
-        itemSelector: '.grid-item',
-        columnWidth: 200,
-    });
-</script>
 <script>
     $(function(){
   $('#wookmark-example').wookmark({
@@ -27,6 +20,23 @@
   });
 });
 </script>
+<script type='text/javascript'>
+
+    (function()
+    {
+      if( window.localStorage )
+      {
+        if( !localStorage.getItem('firstLoad') )
+        {
+          localStorage['firstLoad'] = true;
+          window.location.reload();
+        }  
+        else
+          localStorage.removeItem('firstLoad');
+      }
+    })();
+    
+    </script>
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -171,143 +181,13 @@
         </li>
 
     </ul>
-    <!-- <div class="grid">
-        <div class="grid-item">Item 1</div>
-        <div class="grid-item">Item 2</div>
-        <div class="grid-item">Item 3</div>
-    </div> -->
-    <!-- <div class="container">
-        <div class="item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div>
-         <div class="grid-item item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div> -->
-    <!-- </div> -->
 
-
-    <!-- <div class="grid">
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
-                <p>Outcome</p><span class="side-project">Side Project</span>
-                <div class="logo outcome-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img src="./images/localyze.png"/>
-                <p>Localyze</p><span class="current">Current</span>
-                <div class="logo localyze-logo"></div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="index.html">
-                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
-                <p>TruePlan</p><span class="acquired">Acquired</span>
-                <div class="logo trueplan-logo"></div>
-            </a>
-        </div>
-        
-    </div> -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout/masonry.min.js"></script>
+<script>
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 200,
+    });
+</script>
 </html>
