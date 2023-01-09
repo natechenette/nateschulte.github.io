@@ -28,13 +28,13 @@ ul.navigation {
     transition: all 0.2s ease-out;
 }
 
-.navigation a:hover {
+/* .navigation a:hover {
     color:#16161D;
     text-shadow: -1px 1px 0 #fff,
 				  1px 1px 0 #fff,
 				 1px -1px 0 #fff;
 				-1px -1px 0 #fff;
-}
+} */
 
 .navigation .logo {
     display: none;
