@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nate Chenette</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<script type="text/javascript" src="./js/jquery.js"></script>
-
+<title>Nate Chenette | Portfolio</title>
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/wookmark/wookmark.min.js"></script>
 <script>
     $(document).mousemove(function(e) {
         $('.logo').offset({
@@ -13,7 +13,20 @@
         });
     });
 </script>
-<!-- Hotjar Tracking Code for https://nateschulte.github.io/ -->
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout/masonry.min.js"></script>
+<script>
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 200,
+    });
+</script>
+<script>
+    $(function(){
+  $('#wookmark-example').wookmark({
+    autoResize:true,
+  });
+});
+</script>
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -28,115 +41,273 @@
 
 
 <body>
-
-<div class="navbar">
-    <div class="container">
-        <div class="name">nate chenette.</div>
-        <div class="description">Designer & leader working on products and complex systems that help solve people and business problems.
-            <ul>
-                <li><a target="_blank" href="https://www.linkedin.com/in/nateschulte1/">LinkedIn</a></li>
-                <li><a target="_blank" href="https://www.twitter.com/natechenette">Twitter</a></li>
-                <li><a target="_blank" href="https://github.com/nateschulte">Github</a></li></div>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- <div class="header">
-    <div class="thirty">
-        <div class="name">nate chenette.</div>
-    </div>
-    <div class="fifty">
-        <div class="name desc">Designer & leader working on products and complex systems that help solve people and business problems.</div>
-    </div>
-    <div class="fifty">
-        <div class="name desc">
-            <ul>
-                <li><a target="_blank" href="https://www.linkedin.com/in/nateschulte1/">LinkedIn</a></li>
-                <li><a target="_blank" href="https://www.twitter.com/natechenette">Twitter</a></li>
-                <li><a target="_blank" href="https://github.com/nateschulte">Github</a></li></div>
-            </ul>
-        </div>
-    </div>
-</div> -->
-
-<div class="content work">
-    <div class="container">
-        <ul class="navigation">
-            <br><br>
-            <br><br>
-            <!-- <a href="localyze.html">
-                <li class="localyze"> 
-                    <div class="logo localyze-logo"></div>
-                    Localyze
-                </li>
-            </a> -->
-            <a href="trueplan.html">
-                <li class="trueplan"> 
-                    <div class="logo trueplan-logo"></div>
-                    TruePlan
-                </li>
-            </a>
-            <a href="twilio.html">
-                <li class="twilio"> 
-                    <div class="logo twilio-logo"></div>
-                    Twilio
-                </li>
-            </a>
-            <a href="minimaps.html">
-                <li class="minimaps"> 
-                    <div class="logo minimaps-logo"></div>
-                    Minimaps
-                </li>
-            </a>
-            <a href="sg.html">
-                <li class="sendgrid"> 
-                    <div class="logo sendgrid-logo"></div>
-                    SendGrid
-                </li>
-            </a>
-            <a href="abacus.html">
-                <li class="abacus"> 
-                    <div class="logo abacus-logo"></div>
-                    Abacus
-                </li>
-            </a>
-            <a href="percolate.html">
-                <li class="percolate"> 
-                    <div class="logo percolate-logo"></div>
-                    Percolate
-                </li>
-            </a>
-            <a href="designtalk.html">
-                <li class="dt"> 
-                    <div class="logo designtalk-logo"></div>
-                    DesignTalk
-                </li>
-            </a>
-            <a href="shake.html">
-                <li class="shake"> 
-                    <div class="logo shake-logo"></div>
-                    Shake
-                </li>
-            </a>
-            <a href="ttfm.html">
-                <li class="turntable"> 
-                    <div class="logo turntable-logo"></div>
-                    Turntable.fm
-                </li>
-            </a>
-            <a href="mbi.html">
-                <li class="mbi"> 
-                    <div class="logo mbi-logo"></div>
-                    Made By Immigrants
-                </li>
-            </a>
+    <div class="header">
+        <a href="index.html"><span>N — C</span></a>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/nateschulte1/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/nateschulte" target="_blank">Github</a></li>
+            <li><a href="https://www.twitter.com/natechenette" target="_blank">Twitter</a></li>
         </ul>
     </div>
-</div>
+    <ul id="wookmark-example" class="tiles-wrap">
 
-<div class="wave">
-    <div class="container">👋</div>
-</div>
+        <!-- <li class="grid-item">
+            <a href="outcome.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg" alt="Outcome">
+                <div class="top">
+                    <p>Outcome</p>
+                    <span class="side-project">Side Project</span>
+                </div>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </li>
 
+        <li class="grid-item">
+            <a href="localyze.html">
+                <img src="./images/localyze.png" alt="Localyze">
+                <div class="top">
+                    <p>Localyze</p>
+                    <span class="current">Current</span>
+                </div>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </li> -->
+
+        <li class="grid-item">
+            <a href="trueplan.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg" alt="TruePlan">
+                <div class="logo trueplan-logo"></div>
+                <div class="top">
+                    <p>TruePlan</p>
+                    <span class="acquired">Acquired</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="twilio.html">
+                <img src="./images/twilio-thumbnail.svg" alt="Twilio">
+                <div class="logo twilio-logo"></div>
+                <div class="top">
+                    <p>Twilio</p>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="sg.html">
+                <img class="w-bg" src="./images/sg.svg" alt="SendGrid">
+                <div class="logo sendgrid-logo"></div>
+                <div class="top">
+                    <p>SendGrid</p>
+                    <span class="acquired">Acquired</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="abacus.html">
+                <img src="./images/abacus-thumbnail.png" alt="Abacus">
+                <div class="logo abacus-logo"></div>
+                <div class="top">
+                    <p>Abacus</p>
+                    <span class="acquired">Acquired</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="percolate.html">
+                <img class="padding-tl" src="./images/percolate-thumbnail.png" alt="Percolate">
+                <div class="logo percolate-logo"></div>
+                <div class="top">
+                    <p>Percolate</p>
+                    <span class="acquired">Acquired</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="minimaps.html">
+                <img src="./images/minimaps-thumbnail.svg" alt="Minimaps">
+                <div class="logo minimaps-logo"></div>
+                <div class="top">
+                    <p>Minimaps</p>
+                    <span class="side-project">Side Project</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="shake.html">
+                <img src="./images/shake-thumbnail.png" alt="Shake">
+                <div class="logo shake-logo"></div>
+                <div class="top">
+                    <p>Shake</p>
+                    <span class="acquired">Acquired</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="designtalk.html">
+                <img src="./images/design-talk-thumbnail.png" alt="Design Talk">
+                <div class="logo designtalk-logo"></div>
+                <div class="top">
+                    <p>DesignTalk</p>
+                    <span class="side-project">Side Project</span>
+                </div>
+            </a>
+        </li>
+
+        <li class="grid-item">
+            <a href="ttfm.html">
+                <img src="./images/ttfm-thumbnail.jpeg" alt="Turntable.fm">
+                <div class="logo turntable-logo"></div>
+                <div class="top">
+                    <p>Turntable.fm</p>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+    <!-- <div class="grid">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+    </div> -->
+    <!-- <div class="container">
+        <div class="item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div>
+         <div class="grid-item item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div> -->
+    <!-- </div> -->
+
+
+    <!-- <div class="grid">
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/outcome-thumbnail.svg"/>
+                <p>Outcome</p><span class="side-project">Side Project</span>
+                <div class="logo outcome-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img src="./images/localyze.png"/>
+                <p>Localyze</p><span class="current">Current</span>
+                <div class="logo localyze-logo"></div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="index.html">
+                <img class="padding-tl" src="./images/trueplan-thumbnail.svg"/>
+                <p>TruePlan</p><span class="acquired">Acquired</span>
+                <div class="logo trueplan-logo"></div>
+            </a>
+        </div>
+        
+    </div> -->
 </body>
 </html>
